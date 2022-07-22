@@ -1,0 +1,46 @@
+
+:root {
+	--color-primary: rgba(53, 68, 177, 1);
+	--color-primary-darker: rgba(53, 68, 177, 0.8)
+}
+
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+	color: #333;
+	font-size: 22px;
+	font-family: "Poppins", "Helvetica Neue", sans-serif;
+	background: rgb(245,193,188);
+	background: radial-gradient(circle, rgba(245,193,188,1) 53%, rgba(239,173,173,1) 78%, rgba(236,162,165,1) 89%, rgba(233,150,157,1) 98%, rgba(232,145,153,1) 100%);
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: var(--color-primary-darker);
+}
+
+p {
+	margin: .5rem;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
