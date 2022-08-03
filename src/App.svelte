@@ -7,7 +7,7 @@
 
 <main>
 	<div class="inner">
-		<Logo />
+		<Logo class="logo"/>
 
 		<p>{tagline}</p>
 		<p>
